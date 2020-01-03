@@ -15,3 +15,9 @@ Disable Win10Updates
     + 修改start值改成16进制，值改为“4”
     + 修改“FailureActions”键的二进制数据，将“0010”、“0018”行的左起第5个数值由原来的“01”改为“00”
     + 使用 Win + R 组合快捷键，打开运行对话框，然后输入命名 regedit打开注册表,定位到 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\]
+
+
+
+# 1click.bat
+
++ 一键激活office 365，必须使用管理员权限执行
